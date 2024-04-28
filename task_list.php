@@ -1,11 +1,13 @@
 <?php include 'db_connect.php' ?>
 <div class="col-lg-12">
 	<div class="card card-outline card-success">
-		<div class="card-header">
-			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_project"><i class="fa fa-plus"></i> Add New project</a>
+		<?php if ($_SESSION['login_type'] != 3) : ?>
+			<div class="card-header">
+				<div class="card-tools">
+					<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_project"><i class="fa fa-plus"></i> Add New project</a>
+				</div>
 			</div>
-		</div>
+		<?php endif; ?>
 		<div class="card-body">
 			<table class="table tabe-hover table-condensed" id="list">
 				<colgroup>
