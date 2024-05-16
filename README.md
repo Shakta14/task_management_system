@@ -18,6 +18,18 @@ How to Run
 
 # Admin Access
 
-Email: admin@admin.com
+Email: admin@gmail.com
 
-Password: admin123
+Pass: admin123
+
+# Employee Access
+
+Email: shakta@gmail.com
+
+Pass: shakta123
+
+# Project Manager Access
+
+Email: farhan@gmail.com
+
+Pass: farhan123
